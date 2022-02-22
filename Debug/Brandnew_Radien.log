@@ -1,0 +1,5 @@
+﻿  mainGame.cpp
+C:\Users\godsu\Desktop\복습\수업_API\프로젝트\latest_Radien_upgrade_test\Brandnew_Radien\image.h(131,53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\godsu\Desktop\복습\수업_API\프로젝트\latest_Radien_upgrade_test\Brandnew_Radien\image.h(131,38): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\godsu\Desktop\복습\수업_API\프로젝트\latest_Radien_upgrade_test\Brandnew_Radien\imageManager.h(24,95): warning C4114: 동일한 형식 한정자를 두 번 이상 사용했습니다.
+  Brandnew_Radien.vcxproj -> C:\Users\godsu\Desktop\복습\수업_API\프로젝트\latest_Radien_upgrade_test\Debug\Brandnew_Radien.exe

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{7da3e57b-1030-4a2d-abc7-a452533fe9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singleton">
+      <UniqueIdentifier>{27984584-956f-4c00-b1cd-a7853b73253b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{dcb43e66-503b-4076-8f8e-1bb85acda8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{399967c2-14a6-4ed4-98e0-6d366a4f761b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{e20cc834-a595-4191-9b97-28946275ce20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\player">
+      <UniqueIdentifier>{dad644a5-78ea-47e4-b579-07be68bd9e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\bullet">
+      <UniqueIdentifier>{3a73175d-9dcf-44e9-8001-581562a3b1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{cc27c53e-64c1-4937-9dd2-9152cdd403dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy">
+      <UniqueIdentifier>{42f17484-4ccd-4503-8320-bae88540edbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy\boss">
+      <UniqueIdentifier>{cb39624c-3767-4bdf-aaaf-2139e748a4c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Brandnew_Radien.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>mainGame\player</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>mainGame\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>mainGame\enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="bossBullet.h">
+      <Filter>mainGame\enemy\boss</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Brandnew_Radien.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>mainGame\player</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>mainGame\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="유도레이저.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>mainGame\enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="bossBullet.cpp">
+      <Filter>mainGame\enemy\boss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Brandnew_Radien.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Brandnew_Radien.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
