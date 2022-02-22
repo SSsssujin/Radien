@@ -94,7 +94,7 @@ void player::update()
 
         case 1:
             pBullet->fire(_player->getX() - 17 + _player->getWidth() / 2, _player->getY());
-            pBullet->fire(_player->getX() + 17 + _player->getWidth() / 2, _player->getY());                 //enemy존나 커다랗게 만들어서 불렛 새는거 눈치못채게 하자 ^^ ㅎ
+            pBullet->fire(_player->getX() + 17 + _player->getWidth() / 2, _player->getY());  
             break;
 
         case 2:
